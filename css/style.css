@@ -1,0 +1,150 @@
+@import url("/css/global/boilerplate.css");
+@import url("/css/global/fonts.css");
+
+@media only screen and (min-width: 577px) {
+  body {
+    background-color: var(--stone100);
+  }
+  .content-container {
+    max-width: 577px;
+    background-color: var(--white);
+    margin: auto;
+    padding: 40px;
+  }
+  .header-img {
+    border-radius: 10px;
+  }
+
+  main {
+    margin: 1.875em 0 1.875em 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  main {
+    margin: 1.875em 8% 1.875em 8%;
+    height: 100vh;
+  }
+  #header {
+    margin: 0;
+  }
+}
+
+body {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  color: var(--stone600);
+  min-width: 375px;
+}
+
+h1,
+h3 {
+  font-family: "Young Serif", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: var(--stone900);
+  font-weight: normal;
+  line-height: 1em;
+}
+
+h2 {
+  color: var(--rose800);
+  margin-bottom: 1em;
+  font-size: 1.24em;
+}
+
+h3 {
+  color: var(--brown800);
+  font-size: 1.5em;
+  margin-top: 35px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1em;
+  text-align: left;
+}
+
+.preparation {
+  background-color: var(--rose50);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+ul.preparation_list {
+  padding-left: 25px;
+}
+
+.preparation_list li {
+  padding: 0 0 15px 15px;
+}
+
+.preparation_list li::marker {
+  color: var(--rose800);
+}
+
+.border {
+  border: solid 1px var(--stone150);
+}
+
+.ingredients-container {
+  margin-bottom: 35px;
+}
+
+ul.ingredients,
+ol.instructions {
+  padding: 0 0 0 20px;
+}
+
+ul.ingredients li,
+ol.instructions li {
+  padding: 10px 0 0 15px;
+}
+ul.ingredients li::marker,
+ol.instructions li::marker {
+  color: var(--brown800);
+  font-weight: 600;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border-bottom: solid;
+  border-color: var(--stone150);
+  width: 50%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.no-border {
+  border-bottom: none;
+}
+
+.values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.left {
+  padding-left: 40px;
+  font-weight: 400;
+}
+
+.right {
+  color: var(--brown800);
+  font-weight: 700;
+}
+
+.attribution {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.875em;
+}

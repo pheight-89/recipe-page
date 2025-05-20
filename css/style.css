@@ -8,8 +8,9 @@
   .content-container {
     max-width: 577px;
     background-color: var(--white);
-    margin: auto;
+    margin: 2rem;
     padding: 40px;
+    border-radius: 1rem;
   }
   .header-img {
     border-radius: 10px;
@@ -30,9 +31,13 @@
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   color: var(--stone600);
   min-width: 375px;
+  min-height: 100vh;
 }
 
 h1,
@@ -147,4 +152,8 @@ td {
   width: 100%;
   margin: 0 auto;
   padding: 1.875em;
+}
+
+.attribution a {
+  text-decoration: none;
 }
